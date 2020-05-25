@@ -8,6 +8,14 @@
 {\bf Petersen Ch. 3 Exercises} \\
 Holly Mandel $\bullet$ 5/25/20
 \end{center}
-\noindent{\bf 3.  A surjective morphism of sheaves that is not surjective on sections} $\bullet$ Let $X$ be any manifold such that $H^1_{dR}(X,\mathbb{R}) \neq 0$, for instance $X = S^1$, let $\mathcal{F}$ be the sheaf of smooth functions, and let $\mathcal{G}$ be the group of $d$-closed real one-forms on $X$. Surjectivity follows from the Poincar\'e lemma, but the map on global sections is not surjective by the assumption on cohomology. \\
+\noindent{\bf 7.  Parallel Ricci tensor implies constant scalar curvature.} $\bullet$ If $\nabla \text{Ric} = 0$, then for any $p \in M$ and $X$, $Y$, $Z \in T_p M$, 
+\[
+(\nabla_Z R(E_i,\cdot,\cdot, E_i))(X,Y) = \sum_i Z(R(E_i,X,Y,E_i))-R(E_i,\nabla_Z X,Y,E_i)-R(E_i, X,\nabla_Z Y,E_i) = 0,
+\]
+where $(E_i)$ is an orthonormal basis for $T_pM$. Thus by Prop. 3.1.1,
+\begin{dmath*}
+Z\bigg( \sum_{i,j}  R(E_i,E_j,E_i,E_j)\bigg) = \sum_{i,j} 2 R(E_i,\nabla_Z E_j,E_j,E_i).
+\end{dmath*}
+But we can assume $(E_i)$ is a parallel frame by Exercise 2.5.19. Therefore the righthand term vanishes, so the scalar curvature is constant. 
  
 \end{document}
