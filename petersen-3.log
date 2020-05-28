@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  27 MAY 2020 20:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  27 MAY 2020 20:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1010,6 +1010,95 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 2865) in paragraph at lines 54--54
+$\OT1/cmr/m/n/10 
+[](\OML/cmm/m/it/10 E[]; E[]\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 d![]\OT1/cmr/m
+/n/10 (\OML/cmm/m/it/10 E[]; E[]\OT1/cmr/m/n/10 ) |  + (\OML/cmm/m/it/10 ![]\OT
+1/cmr/m/n/10 (\OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ![]\OT1/cmr
+/m/n/10 (\OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10 ) |  + \OML/cmm/m/it/10 ![]\OT1/cm
+r/m/n/10 (\OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ![]\OT1/cmr/m/n
+/10 (\OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10 )) 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+\OT1/cmr/m/n/10 = \OML/cmm/m/it/10 d![]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 E[]; E
+[]\OT1/cmr/m/n/10 ) |  \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 !
+[] |  \OMS/cmsy/m/n/10 ^ \OML/cmm/m/it/10 ![]\OT1/cmr/m/n/10 )(\OML/cmm/m/it/10
+ E[]; E[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ;|$ 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 54
+\OT1/cmr/m/n/10 = \OML/cmm/m/it/10 d![]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 E[]; E
+[]\OT1/cmr/m/n/10 ) |  \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 !
+[] |  \OMS/cmsy/m/n/10 ^ \OML/cmm/m/it/10 ![]\OT1/cmr/m/n/10 )(\OML/cmm/m/it/10
+ E[]; E[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ;|$ 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 54
+\OT1/cmr/m/n/10 = \OML/cmm/m/it/10 d![]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 E[]; E
+[]\OT1/cmr/m/n/10 ) |  \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 !
+[] |  \OMS/cmsy/m/n/10 ^ \OML/cmm/m/it/10 ![]\OT1/cmr/m/n/10 )(\OML/cmm/m/it/10
+ E[]; E[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ;|$ 
+ []
+
+
+Underfull \hbox (badness 2865) detected at line 54
+$\OT1/cmr/m/n/10 
+[](\OML/cmm/m/it/10 E[]; E[]\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 d![]\OT1/cmr/m
+/n/10 (\OML/cmm/m/it/10 E[]; E[]\OT1/cmr/m/n/10 ) |  + (\OML/cmm/m/it/10 ![]\OT
+1/cmr/m/n/10 (\OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ![]\OT1/cmr
+/m/n/10 (\OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10 ) |  + \OML/cmm/m/it/10 ![]\OT1/cm
+r/m/n/10 (\OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ![]\OT1/cmr/m/n
+/10 (\OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10 )) 
+ []
+
+
+Underfull \hbox (badness 2865) in paragraph at lines 54--54
+$[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 d![]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 E[
+]; E[]\OT1/cmr/m/n/10 ) |  + (\OML/cmm/m/it/10 ![]\OT1/cmr/m/n/10 (\OML/cmm/m/i
+t/10 E[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ![]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 
+E[]\OT1/cmr/m/n/10 ) |  + \OML/cmm/m/it/10 ![]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
+ E[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ![]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 E[]\
+OT1/cmr/m/n/10 )) 
+ []
+
+
+Underfull \hbox (badness 6542) in paragraph at lines 54--54
+\OT1/cmr/m/n/10 = \OML/cmm/m/it/10 d![]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 E[]; E
+[]\OT1/cmr/m/n/10 ) |  \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 !
+[] |  \OMS/cmsy/m/n/10 ^ \OML/cmm/m/it/10 ![]\OT1/cmr/m/n/10 )(\OML/cmm/m/it/10
+ E[]; E[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ;|$ 
+ []
+
+
+Underfull \hbox (badness 6542) detected at line 54
+\OT1/cmr/m/n/10 = \OML/cmm/m/it/10 d![]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 E[]; E
+[]\OT1/cmr/m/n/10 ) |  \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 !
+[] |  \OMS/cmsy/m/n/10 ^ \OML/cmm/m/it/10 ![]\OT1/cmr/m/n/10 )(\OML/cmm/m/it/10
+ E[]; E[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ;|$ 
+ []
+
+
+Underfull \hbox (badness 6542) detected at line 54
+\OT1/cmr/m/n/10 = \OML/cmm/m/it/10 d![]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 E[]; E
+[]\OT1/cmr/m/n/10 ) |  \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 !
+[] |  \OMS/cmsy/m/n/10 ^ \OML/cmm/m/it/10 ![]\OT1/cmr/m/n/10 )(\OML/cmm/m/it/10
+ E[]; E[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ;|$ 
+ []
+
+
+Underfull \hbox (badness 2865) detected at line 54
+$[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 d![]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 E[
+]; E[]\OT1/cmr/m/n/10 ) |  + (\OML/cmm/m/it/10 ![]\OT1/cmr/m/n/10 (\OML/cmm/m/i
+t/10 E[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ![]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 
+E[]\OT1/cmr/m/n/10 ) |  + \OML/cmm/m/it/10 ![]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
+ E[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ![]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 E[]\
+OT1/cmr/m/n/10 )) 
+ []
+
 [2] (./petersen-3.aux) ) 
 Here is how much of TeX's memory you used:
  24919 strings out of 492649
@@ -1027,7 +1116,7 @@ fonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb>
-Output written on petersen-3.pdf (2 pages, 85672 bytes).
+Output written on petersen-3.pdf (2 pages, 84720 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream
