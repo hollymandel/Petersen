@@ -8,14 +8,50 @@
 {\bf Petersen Ch. 3 Exercises} \\
 Holly Mandel $\bullet$ 5/25/20
 \end{center}
-\noindent{\bf 7.  Parallel Ricci tensor implies constant scalar curvature.} $\bullet$ If $\nabla \text{Ric} = 0$, then for any $p \in M$ and $X$, $Y$, $Z \in T_p M$, 
+\noindent{\bf 7.  Parallel Ricci tensor implies constant scalar curvature} $\bullet$ If $\nabla \text{Ric} = 0$, then for any $p \in M$ and $X$, $Y$, $Z \in T_p M$, 
 \[
 (\nabla_Z R(E_i,\cdot,\cdot, E_i))(X,Y) = \sum_i Z(R(E_i,X,Y,E_i))-R(E_i,\nabla_Z X,Y,E_i)-R(E_i, X,\nabla_Z Y,E_i) = 0,
 \]
-where $(E_i)$ is an orthonormal basis for $T_pM$. Thus by Prop. 3.1.1,
+where $(E_i)$ is an orthonormal frame in a neighborhood of $p$. Thus by the symmetries of $R$ (Prop. 3.1.1),
 \begin{dmath*}
-Z\bigg( \sum_{i,j}  R(E_i,E_j,E_i,E_j)\bigg) = \sum_{i,j} 2 R(E_i,\nabla_Z E_j,E_j,E_i).
+Z\bigg( \sum_{i,j}  R(E_i,E_j,E_j,E_i)\bigg) = \sum_{i,j} 2 R(E_i,\nabla_Z E_j,E_j,E_i).
 \end{dmath*}
-But we can assume $(E_i)$ is a parallel frame by Exercise 2.5.19. Therefore the righthand term vanishes, so the scalar curvature is constant. 
+But we can assume $(E_i)$ is a parallel frame by Exercise 2.5.19. Therefore the righthand term vanishes, so the scalar curvature is constant.\\
  
+\noindent{\bf 13. A manifold with enough totally geodesic hypersurfaces has constant curvature} $\bullet$ Let $N$ be any vector in $T_pM$ for some $p \in M$, and let $X$, $Y$ and $Z$ be tangent vectors to totally geodesic hypersurface $H$ which has $N$ as a normal vector at $p$. By Theorem 3.2.5 and the vanishing of $\Pi$, $g(R(X,Y)Z,N) = -g(R(X,Y)N,Z) = 0$. This implies that $R(X,Y)N = 0$. But since $N$ can be any vector and $X$, $Y$ any two vectors orthogonal to it, the result follows from Exercise 3.4.10. \\
+
+\noindent{\bf 18. Scaling the metric} $\bullet$ It is easily seen that the connection which is metric with respect to $g$ is also metric with respect to $\lambda^2 g$. Therefore the Levi-Civita connection for these two metrics is the same. It then follows immediately from the definition that the $(3,1)$ tensor is unchanged. The rest of the relations are verified by direct calculation, being careful to incorporate the scaling of orthonormal bases as well as the scaling of the metric.\\
+
+\noindent{\bf 28. Cartan formalism} $\bullet$ (1.) Because $\nabla$ is metric an $(E_i)$ is an orthonormal frame, for any $i,j,k$, 
+\begin{dmath*}
+0 = E_k(g(E_i,E_j)) = g(\nabla_k E_i,E_j) + g(E_i,\nabla_k E_j)
+= \omega^j_i(E_k) + \omega^i_j(E_k),
+\end{dmath*} 
+so $\omega^j_i = -\omega^i_j$. 
+
+Now \begin{dmath*}
+(d\omega^i)(E_p,E_q) = \omega^i([E_p,E_q]) 
+= \omega^i(\nabla_p E_q - \nabla_q E_p)
+= \omega_p^i(E_q) - \omega_q^i(E_p).
+\end{dmath*}
+On the other hand,
+\begin{dmath*}
+\omega^j \wedge \omega^i_j(E_p,E_q) = \delta_{jp} \omega^i_j(E_q) - \delta_{jq} \omega^i_j(E_q) 
+= \omega^i_p(E_q) - \omega^j_q(E_p).
+\end{dmath*}
+Therefore $d\omega^i = \omega^j \wedge \omega^{i}_j$. 
+
+(2.) We compute
+\begin{dmath*}
+\Omega^j_i(E_p,E_q)E_j = \nabla_p \nabla_q E_i - \nabla_q \nabla_p E_i - \nabla_{[p,q]} E_i
+= \nabla_p(\omega_i^k(E_q) E_k) - \nabla_q(\omega_i^k(E_p) E_k) - \omega_i^k([E_p,E_q]) E_k
+= \omega_i^k(E_q) \omega_k^\ell(E_p) E_\ell + E_p(\omega_i^k(E_q)) E_k - 
+\omega_i^k(E_p) \omega_k^\ell(E_q) E_\ell - E_q(\omega_i^k(E_p)) E_k- \omega_i^k([E_p,E_q]) E_k
+= d\omega_i^k(E_p,E_q)E_k +(\omega_i^k(E_q) \omega_k^\ell(E_p)+\omega_i^k(E_p) \omega_k^\ell(E_q)) E_\ell.
+\end{dmath*}
+Applying $\omega^j$ to both sides yields
+\[\Omega^j_i(E_p,E_q) = -d\omega_i^j(E_p,E_q) + (\omega_i^k(E_q) \omega_k^j(E_p)+\omega_i^k(E_p) \omega_k^j(E_q)),\]
+which is the desired formula. (MAYBE SIGN ISSUES)
+
+(3.) Computations omitted. 
 \end{document}
