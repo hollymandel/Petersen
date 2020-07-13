@@ -1,0 +1,52 @@
+\documentclass[10pt,letter]{article}
+\usepackage{amsmath,amssymb,breqn,enumitem,fullpage,graphicx,setspace,mathtools,pst-node,stmaryrd,tikz-cd}
+\onehalfspacing
+\usepackage{fullpage}
+
+\begin{document}
+\begin{center} 
+{\bf Petersen Ch. 5 Exercises} \\
+Holly Mandel $\bullet$ 7/12/20
+\end{center}
+\noindent{\bf 5. A complete open subset of a Riemannian manifold is the entire manifold} $\bullet$ Let $O \subset M$ be complete. We assume that $M$ is connected, since otherwise, a counterexample is given by the disjoint union of two compact manifolds. It is therefore sufficient to show that $O$ is closed. But by Hopf-Rinow (Thm. 5.7.1), $O$ is a complete metric space. \\
+
+\noindent{\bf 8.  A metric greater than a complete metric is complete} $\bullet$ By Thm. 5.7.1, $(M,g)$ is complete if and only if every closed and bounded subset is complete. Say this holds and take $\tilde{g} \geq g$. Let $U \subseteq M$ be closed and bounded with respect to $\tilde{g}$. $U$ is also closed in the topology induced by $\tilde{g}$, since all Riemannian metrics induce the same topology. Also, $U$ is bounded with respect to $g$. For if $p$ is a fixed point in $M$ $\gamma$ is a length-minimizing geodesic from $p$ to $x \in U$, then the length of $\gamma$ with respect to $\tilde{g}$ is greater than the length with respect to $g$, which is in turn greater than the $g$-distance from $x$ to $p$.  Therefore $U$ is compact. Since $U$ was arbitrary, $\tilde{g}$ is complete. \\ 
+ 
+\noindent{\bf 11. Complete and incomplete cones} $\bullet$ If $\rho(r) = r$, then the resulting metric is incomplete at the cone tip, since this point is attained in finite time. This can be seen by observing that ``translation in r'' gives a unit-speed geodesic. 
+
+On the other hand, if $\rho(r)$ is any smooth bijection $(0,\infty) \rightarrow \mathbb{R}$, then the resulting metric is complete CHECK THIS. \\
+
+\noindent{\bf 19. The distance function and convexity} $\bullet$ If $U$ is the punctured disk then $U$ is not convex but the distance agrees with Euclidean distance, since lines can be perturbed to miss the origin. If $U$ is the disk with the positive $x$ axis removed, then $\bar{U}$ is convex, but the distance on $U$ is not the Euclidean distance because points on opposite sides of the slit cannot be connected without going around $0$. \\
+
+\noindent{\bf 21. The Hessian at a local extremum} $\bullet$ We have that
+\[\frac{d}{dt} f \circ c = \frac{df}{dx^i} \frac{dc^i}{dt}\]
+and
+\[ \frac{d^2}{dt^2} f \circ c = \frac{d^2 f}{ dx^i dx^j}\frac{dc^i}{dt}\frac{dc^j}{dt}  + \frac{df}{dx^i} \frac{d^2c^i}{dt^2}.\]
+Say $f$ attains an extremum at $p$. The $\frac{d}{dt}f \circ c = 0$ for all geodesics $c$ through $p$. Since the velocity vector of such a geodesic is arbitrary, the first equation implies that $\nabla f = 0$. Now say $f$ is a local maximum, so $\frac{d^2}{dt^2} f \circ c \leq 0$ for all $c$. The second expression then implies that the Hessian of $f$ is nonpositive. Here we are using the fact that in normal coordinates, the metric Hessian agrees with the Euclidean Hessian. Therefore we can assume our coordinate expressions are with respect to normal coordinates at $p$. \\
+
+\noindent{\bf 27. Hessian of $r$} $\bullet$ The first identity is a computation. By definition
+\begin{dmath*} \text{Hess} \ x^i = \mathcal{L}_{\nabla x^i} (g_{mn} dx^m \otimes dx^n)  = \nabla x^i(g_{mn}) dx^m \otimes dx^n + g_{mn}  (\mathcal{L}_{\nabla x^i} dx^m) \otimes dx^n + g_{mn} dx_m \otimes (\mathcal{L}_{\nabla x^i} dx^n).
+\end{dmath*}
+For the first time, we observe that
+\[\nabla x^i(g_{mn}) = (x^i)_p (g_{mn})_p = (g_{mn})_i\]
+For the last two terms observe that for any $i$ and $m$,
+\[ \mathcal{L}_{\nabla x^i} dx^m = g^{im}_p dx^p.\] 
+But since $g^{ij}g_{jk} = \delta^i_k$ for all $i,k$, we have that
+\[ g^{ij}_p g_{jk} = g^{ij} g_{jk,p}\]
+for all p. Therefore 
+\[ g_{mn} g^{im}_p dx^p = - g_{mn,p} g^{im} dx^p.\] 
+The identity now follows from reindexing. 
+
+For the second identity, note that 
+\[ \nabla (f \circ h) = f' \nabla h.\]
+Therefore
+\begin{dmath*} 
+(\mathcal{L}_{\nabla^i \frac{r^2}{2}} g)(Y,Z)=  (\mathcal{L}_{\sum_i x^i \nabla^i x^i} g )(Y,Z)
+= x^i (\mathcal{L}_{  \nabla^i x^i}) g(Y,Z) + \mathcal{L}_{Y} x^i g(\nabla x^i,Z) + \mathcal{L}_{Z} x^i g(Y,\nabla x^i)
+= \mathcal{O}(r^2) + 2 X^i Y^i.
+\end{dmath*}  
+Thus $\mathcal{L}_{\nabla^i \frac{r^2}{2}} g = \delta_{ij} + \mathcal{O}(r^2)$, and since $g = \delta_{ij} + \mathcal{O}(r^2)$, this implies that
+\[ \text{Hess}\ \frac{r^2}{2} = g + \mathcal{O}(r^2).\]
+
+The final identity follows from the chain rule again and the previous identity (computation omitted). 
+\end{document}
